@@ -4,7 +4,7 @@ let router = exports.Router();
 let controller = require('../Controllers/controller');
 
 router.post('/', (req, res) => {
-    controller.postCat(req, res);
+    controller.postcat(req, res);
 });
 
 router.get('/', (req, res) => {
